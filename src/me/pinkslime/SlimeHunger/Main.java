@@ -2,6 +2,7 @@ package me.pinkslime.SlimeHunger;
 
 import org.spongepowered.api.entity.Player;
 import org.spongepowered.api.event.Subscribe;
+import org.spongepowered.api.event.player.PlayerEvent;
 import org.spongepowered.api.event.state.PreInitializationEvent;
 import org.spongepowered.api.plugin.Plugin;
 
