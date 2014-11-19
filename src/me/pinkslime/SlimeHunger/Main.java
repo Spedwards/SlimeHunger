@@ -2,19 +2,12 @@ package me.pinkslime.SlimeHunger;
 
 import org.spongepowered.api.entity.Player;
 import org.spongepowered.api.event.Subscribe;
-import org.spongepowered.api.event.player.PlayerEvent;
+import org.spongepowered.api.event.player.PlayerMoveEvent;
 import org.spongepowered.api.event.state.PreInitializationEvent;
 import org.spongepowered.api.plugin.Plugin;
 
-@Plugin(id="SlimeHunger", name="SlimeHunger", version="1.0")
+@Plugin(id="SlimeHunger", name="SlimeHunger", version="1.0.0-SNAPSHOT")
 public class Main {
-	
-	@Subscribe
-	public void onEnable(PreInitializationEvent e) {
-		
-		
-		
-	}
 	
 	@Subscribe
 	public void onPlayerMove(PlayerMoveEvent e) {
